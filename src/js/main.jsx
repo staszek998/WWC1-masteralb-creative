@@ -6,7 +6,6 @@ import Recover from "./components/recover";
 import Register from "./components/register";
 import SignIn from "./components/sign-in";
 import Subscribe from "./components/subscribe";
-import Form from "./helpers/form";
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -18,9 +17,8 @@ export default class Main extends React.Component {
         <LogoTop />
         <div className="cols">
           <div className="col col-left">
-            <Form />
-            {/* <Register />
-          <Email /> */}
+            <Register />
+            {/* <Email />  */}
           </div>
           <div className="col col-right">
             {/* <SignIn />
