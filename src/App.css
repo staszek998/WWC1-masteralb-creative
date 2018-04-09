@@ -168,3 +168,44 @@ body {
   justify-content: flex-start;
   width: 422px;
   height: 600px; }
+
+@font-face {
+  font-family: "Regular";
+  src: url("./fonts/Titillium/Titillium-Regular.otf"); }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.form__title {
+  font-size: 32px;
+  color: white;
+  font-family: "Regular";
+  text-shadow: 1px 1.732px 2px rgba(43, 1, 0, 0.75); }
+
+.form__background {
+  margin-top: 17px;
+  padding: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.form__container {
+  width: 100%;
+  padding: 23px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+@font-face {
+  font-family: "Regular";
+  src: url("./fonts/Titillium/Titillium-Regular.otf"); }
