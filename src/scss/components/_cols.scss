@@ -1,0 +1,15 @@
+.cols {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 422px;
+    height: 600px;
+}

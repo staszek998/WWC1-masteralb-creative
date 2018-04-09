@@ -1,0 +1,15 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./images/background.svg");
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 921px;
+  margin: 0 auto;
+}
