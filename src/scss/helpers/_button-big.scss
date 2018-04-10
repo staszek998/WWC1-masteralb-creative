@@ -1,0 +1,17 @@
+.button-big {
+  width: 339px;
+  height: 48px;
+  border-radius: 3px;
+  box-shadow: 0.5px 0.866px 0px #ffffff;
+  background-color: #93cf2b;
+  border: 1px solid #3a9a00;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-family: "Regular";
+  text-shadow: 0.559px 0.829px 0px #51850e;
+  margin-top: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

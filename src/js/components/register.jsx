@@ -3,6 +3,7 @@ import Form from "../helpers/form";
 import Input from "../helpers/input";
 import Select from "../helpers/select";
 import Agreement from "../helpers/agreement";
+import ButtonBig from "../helpers/button-big";
 import user from "../../images/inputs/user.png";
 import lock from "../../images/inputs/lock.png";
 import envelope from "../../images/inputs/envelope.png";
@@ -55,6 +56,7 @@ export default class Register extends React.Component {
             link={<a href="">terms of use</a>}
           />
         }
+        buttons={<ButtonBig text="Sign up" />}
       />
     );
   }
