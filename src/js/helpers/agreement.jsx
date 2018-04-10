@@ -10,16 +10,30 @@ export default class Agreement extends React.Component {
   };
 
   render() {
-    return (
-      <div className="agreement">
-        <div className="agreement__checkbox" onClick={this.clickHandler}>
-          <div />
+    if (this.props.size === "half") {
+      return (
+        <div className="agreement agreement--half">
+          <div className="agreement__checkbox" onClick={this.clickHandler}>
+            <div />
+          </div>
+          <span className="agreement__text">
+            {this.props.text}
+            {this.props.link}
+          </span>
         </div>
-        <span className="agreement__text">
-          {this.props.text}
-          {this.props.link}
-        </span>
-      </div>
-    );
+      );
+    } else {
+      return (
+        <div className="agreement">
+          <div className="agreement__checkbox" onClick={this.clickHandler}>
+            <div />
+          </div>
+          <span className="agreement__text">
+            {this.props.text}
+            {this.props.link}
+          </span>
+        </div>
+      );
+    }
   }
 }
