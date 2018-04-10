@@ -18,13 +18,13 @@ export default class Main extends React.Component {
         <div className="cols">
           <div className="col col-left">
             <Register />
-            {/* <Email />  */}
+            <Email />
           </div>
           <div className="col col-right">
-            {/* <SignIn />
-          <Recover />
-          <Subscribe />
-          <LogoBottom /> */}
+            <SignIn />
+            <Recover />
+            <Subscribe />
+            {/* <LogoBottom /> */}
           </div>
         </div>
       </div>

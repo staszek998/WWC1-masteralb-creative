@@ -59,12 +59,13 @@
   top: 38px;
   left: 66px;
   width: 271px;
-  height: 200px;
+  height: 137px;
   overflow: auto;
   border-radius: 3px;
   background-color: #f7f7f7;
   border: 1px solid #c6c6c6;
   border-top: none;
+  box-shadow: 0 8px 6px -6px black;
 
   &.visible {
     display: block;

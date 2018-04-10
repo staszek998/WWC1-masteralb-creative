@@ -44,6 +44,6 @@ export default class Register extends React.Component {
     super(props);
   }
   render() {
-    return <Form inputs={inputs} />;
+    return <Form inputs={inputs} title='Register Form' />;
   }
 }
