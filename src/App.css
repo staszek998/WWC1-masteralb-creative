@@ -134,7 +134,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./images/background.svg"); }
+  background-image: url("./images/background/background.svg");
+  padding-bottom: 53px; }
 
 .main {
   display: flex;
@@ -163,7 +164,9 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  position: absolute;
+  bottom: 0; }
   .logo-bottom img {
     opacity: 0.5; }
     .logo-bottom img.logo-bottom__image {
@@ -189,7 +192,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   width: 422px;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .buttons-wrapper {
   width: 100%;
