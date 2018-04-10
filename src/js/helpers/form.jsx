@@ -12,7 +12,7 @@ export default class from extends React.Component {
           <div className="form__container">
             {this.props.inputs}
             {this.props.agreement}
-            {this.props.button}
+            {this.props.buttons}
           </div>
         </div>
       </div>
