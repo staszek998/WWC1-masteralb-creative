@@ -1,5 +1,6 @@
 {
   "name": "01-masteralb-creative",
+  "homepage": "https://staszek998.github.io/WWDC1-masteralb-creative",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,8 +11,11 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "watch-css":
+      "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
@@ -20,6 +24,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "country-list": "^1.1.0"
+    "country-list": "^1.1.0",
+    "gh-pages": "^1.1.0"
   }
 }
