@@ -24,9 +24,6 @@ const inputs = [
 ];
 
 export default class SignIn extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <Form

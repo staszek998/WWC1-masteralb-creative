@@ -4,9 +4,6 @@ import logoText from "../../images/logo/logo-text.svg";
 import logoLink from "../../images/logo/logo-link.svg";
 
 export default class LogoTop extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="logo-bottom">

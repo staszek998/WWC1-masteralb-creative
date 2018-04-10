@@ -8,9 +8,6 @@ import SignIn from "./components/sign-in";
 import Subscribe from "./components/subscribe";
 
 export default class Main extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="main">

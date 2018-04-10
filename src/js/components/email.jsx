@@ -26,9 +26,6 @@ const inputs = [
 ];
 
 export default class Email extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <Form

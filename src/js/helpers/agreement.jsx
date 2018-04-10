@@ -1,10 +1,6 @@
 import React from "react";
 
 export default class Agreement extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   clickHandler = e => {
     e.currentTarget.classList.toggle("agreement__checkbox--checked");
   };

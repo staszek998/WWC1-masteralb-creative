@@ -23,9 +23,6 @@ const inputs = [
 ];
 
 export default class Recover extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <Form
