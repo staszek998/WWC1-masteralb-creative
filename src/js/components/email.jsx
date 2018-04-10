@@ -3,6 +3,8 @@ import Form from "../helpers/form";
 import Input from "../helpers/input";
 import user from "../../images/inputs/user.png";
 import envelope from "../../images/inputs/envelope.png";
+import Agreement from "../helpers/agreement";
+import ButtonBig from "../helpers/button-big";
 
 const inputs = [
   <Input
@@ -26,6 +28,13 @@ export default class Email extends React.Component {
     super(props);
   }
   render() {
-    return <Form inputs={inputs} title="Send E-mail" />;
+    return (
+      <Form
+        inputs={inputs}
+        title="Send E-mail"
+        agreement={<Agreement text="Send a copy to my e-mail address" />}
+        buttons={<ButtonBig text="Send e-mail" />}
+      />
+    );
   }
 }

@@ -3,6 +3,7 @@ import Form from "../helpers/form";
 import Input from "../helpers/input";
 import envelope from "../../images/inputs/envelope.png";
 import phone from "../../images/inputs/phone.png";
+import ButtonSmall from "../helpers/button-small";
 
 const inputs = [
   <Input
@@ -26,6 +27,17 @@ export default class Recover extends React.Component {
     super(props);
   }
   render() {
-    return <Form inputs={inputs} title="Recover Form" />;
+    return (
+      <Form
+        inputs={inputs}
+        title="Recover Form"
+        buttons={
+          <div className="buttons-wrapper">
+            <ButtonSmall text="Send" />
+            <ButtonSmall text="Done" />
+          </div>
+        }
+      />
+    );
   }
 }

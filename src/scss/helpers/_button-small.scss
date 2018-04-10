@@ -1,0 +1,26 @@
+.button-small {
+  width: 148px;
+  height: 41px;
+  border-radius: 3px;
+  box-shadow: 0.5px 0.866px 0px #ffffff;
+  background-color: #93cf2b;
+  border: 1px solid #3a9a00;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-family: "Regular";
+  text-shadow: 0.559px 0.829px 0px #51850e;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.grayed-out {
+  background-color: #bbdb97;
+  border: 1px solid #90ca6c;
+}
+
+.red {
+  background-color: #f3495b;
+  border: 1px solid #a21f2a;
+}

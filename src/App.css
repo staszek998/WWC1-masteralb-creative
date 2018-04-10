@@ -191,42 +191,11 @@ body {
   width: 422px;
   align-items: center; }
 
-.agreement {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
+.buttons-wrapper {
   width: 100%;
-  height: 23px; }
-
-.agreement__checkbox {
-  width: 23px;
-  height: 23px;
-  border-radius: 3px;
-  background-color: #f7f7f7;
-  border: 1px solid #c6c6c6;
-  position: relative; }
-  .agreement__checkbox:hover {
-    cursor: pointer; }
-
-.agreement__checkbox--checked div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 13px;
-  height: 13px;
-  border-radius: 3px;
-  box-shadow: 0.5px 0.866px 0px #ffffff;
-  background-color: #88c814; }
-
-.agreement__text {
-  font-size: 17px;
-  color: #afafaf;
-  font-family: "Regular";
-  margin-left: 15px; }
-  .agreement__text a {
-    color: #afafaf; }
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; }
 
 @font-face {
   font-family: "Regular";
@@ -407,3 +376,62 @@ body {
   margin-top: 20px; }
   .button-big:hover {
     cursor: pointer; }
+
+.button-small {
+  width: 148px;
+  height: 41px;
+  border-radius: 3px;
+  box-shadow: 0.5px 0.866px 0px #ffffff;
+  background-color: #93cf2b;
+  border: 1px solid #3a9a00;
+  font-size: 18px;
+  color: white;
+  font-family: "Regular";
+  text-shadow: 0.559px 0.829px 0px #51850e; }
+  .button-small:hover {
+    cursor: pointer; }
+
+.grayed-out {
+  background-color: #bbdb97;
+  border: 1px solid #90ca6c; }
+
+.red {
+  background-color: #f3495b;
+  border: 1px solid #a21f2a; }
+
+.agreement {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 23px; }
+
+.agreement__checkbox {
+  width: 23px;
+  height: 23px;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  border: 1px solid #c6c6c6;
+  position: relative; }
+  .agreement__checkbox:hover {
+    cursor: pointer; }
+
+.agreement__checkbox--checked div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+  box-shadow: 0.5px 0.866px 0px #ffffff;
+  background-color: #88c814; }
+
+.agreement__text {
+  font-size: 17px;
+  color: #afafaf;
+  font-family: "Regular";
+  margin-left: 15px; }
+  .agreement__text a {
+    color: #afafaf; }
