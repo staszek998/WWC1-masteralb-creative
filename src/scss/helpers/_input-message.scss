@@ -1,0 +1,40 @@
+@import "./fonts";
+
+.input-message {
+  width: 100%;
+  height: 231px;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  border: 1px solid #c6c6c6;
+  margin-bottom: 20px;
+  color: rgb(175, 175, 175);
+  font-size: 16px;
+  font-family: "Regular";
+  padding: 21px;
+  resize: none;
+
+  &::placeholder {
+    color: rgb(175, 175, 175);
+  }
+}
+
+// .input__image {
+//   height: 23px;
+//   width: 23px;
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-position: center;
+//   margin-left: 21px;
+// }
+
+// .input__input {
+//   height: 31px;
+//   border: none;
+//   border-left: 1px solid #dddddd;
+//   outline: none;
+//   background-color: #f7f7f7;
+//   padding-left: 21px;
+//   width: 250px;
+//   margin-left: 21px;
+//   padding-top: 5px;
+// }
