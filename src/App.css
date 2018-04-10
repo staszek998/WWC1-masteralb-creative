@@ -155,6 +155,29 @@ body {
   .logo-top img {
     opacity: 0.5; }
 
+.logo-bottom {
+  width: 353px;
+  height: 131px;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; }
+  .logo-bottom img {
+    opacity: 0.5; }
+    .logo-bottom img.logo-bottom__image {
+      width: 75px; }
+    .logo-bottom img.logo-bottom__text {
+      width: 263px; }
+
+.logo-bottom__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; }
+
 .cols {
   width: 100%;
   display: flex;
@@ -165,7 +188,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 422px; }
+  width: 422px;
+  align-items: center; }
 
 @font-face {
   font-family: "Regular";

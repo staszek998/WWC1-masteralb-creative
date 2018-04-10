@@ -1,0 +1,30 @@
+.logo-bottom {
+  width: 353px;
+  height: 131px;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    opacity: 0.5;
+
+    &.logo-bottom__image {
+      width: 75px;
+    }
+
+    &.logo-bottom__text {
+      width: 263px;
+    }
+  }
+}
+
+.logo-bottom__wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -24,7 +24,7 @@ export default class Main extends React.Component {
             <SignIn />
             <Recover />
             <Subscribe />
-            {/* <LogoBottom /> */}
+            <LogoBottom />
           </div>
         </div>
       </div>
