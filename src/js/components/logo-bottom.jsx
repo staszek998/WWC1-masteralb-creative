@@ -1,7 +1,7 @@
 import React from "react";
-import logoImage from "../../images/logo/logo-image.svg";
-import logoText from "../../images/logo/logo-text.svg";
-import logoLink from "../../images/logo/logo-link.svg";
+import logoImage from "../../images/logo/image.png";
+import logoText from "../../images/logo/text.png";
+import logoLink from "../../images/logo/link.png";
 
 export default class LogoTop extends React.Component {
   render() {
