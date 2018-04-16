@@ -1,5 +1,4 @@
 .button-big {
-  width: 339px;
   height: 48px;
   border-radius: 3px;
   box-shadow: 0.5px 0.866px 0px #ffffff;
@@ -10,6 +9,11 @@
   font-family: "Regular";
   text-shadow: 0.559px 0.829px 0px #51850e;
   margin-top: 20px;
+  width: 100%;
+  @media only screen and (min-width: 921px) {
+    
+    width: 339px;
+  }
 
   &:hover {
     cursor: pointer;
@@ -17,7 +21,7 @@
 }
 
 .button-big--half {
-  width: 141px;
+  width: 47%;
   height: 42px;
   margin: 0;
 }

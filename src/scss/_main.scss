@@ -11,6 +11,12 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 921px;
-  margin: 0 auto;
+  width: 100vw;
+  padding: 20px;
+
+  @media only screen and (min-width: 921px) {
+    width: 921px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }

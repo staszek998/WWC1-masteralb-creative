@@ -1,5 +1,4 @@
 .button-small {
-  width: 148px;
   height: 41px;
   border-radius: 3px;
   box-shadow: 0.5px 0.866px 0px #ffffff;
@@ -9,6 +8,11 @@
   color: rgb(255, 255, 255);
   font-family: "Regular";
   text-shadow: 0.559px 0.829px 0px #51850e;
+  width: 47%;
+
+  @media only screen and (min-width: 921px) {
+    // width: 148px;
+  }
 
   &:hover {
     cursor: pointer;

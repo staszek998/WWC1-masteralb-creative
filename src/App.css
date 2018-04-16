@@ -142,37 +142,77 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 921px;
-  margin: 0 auto; }
+  width: 100vw;
+  padding: 20px; }
+  @media only screen and (min-width: 921px) {
+    .main {
+      width: 921px;
+      margin: 0 auto;
+      padding: 0; } }
 
 .logo-top {
-  width: 426px;
-  height: 111px;
-  margin-top: 55px;
+  width: 100%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (min-width: 921px) {
+    .logo-top {
+      margin-top: 55px;
+      width: 426px;
+      height: 111px; } }
   .logo-top img {
-    opacity: 0.5; }
+    opacity: 0.6; }
+    @media only screen and (min-width: 921px) {
+      .logo-top img {
+        opacity: 0.5; } }
+    .logo-top img.logo-top__image {
+      width: 65px; }
+      @media only screen and (min-width: 921px) {
+        .logo-top img.logo-top__image {
+          width: initial; } }
+    .logo-top img.logo-top__text {
+      height: 65px; }
+      @media only screen and (min-width: 921px) {
+        .logo-top img.logo-top__text {
+          height: initial; } }
 
 .logo-bottom {
-  width: 353px;
-  height: 131px;
-  margin-top: 55px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  bottom: 0; }
+  margin-top: 55px; }
+  @media only screen and (min-width: 921px) {
+    .logo-bottom {
+      position: absolute;
+      bottom: 0;
+      width: 426px;
+      height: 111px; } }
   .logo-bottom img {
-    opacity: 0.5; }
+    opacity: 0.8; }
+    @media only screen and (min-width: 921px) {
+      .logo-bottom img {
+        opacity: 0.5; } }
     .logo-bottom img.logo-bottom__image {
-      width: 75px; }
+      width: 65px; }
+      @media only screen and (min-width: 921px) {
+        .logo-bottom img.logo-bottom__image {
+          width: initial; } }
     .logo-bottom img.logo-bottom__text {
-      width: 263px; }
+      height: 65px; }
+      @media only screen and (min-width: 921px) {
+        .logo-bottom img.logo-bottom__text {
+          height: initial; } }
+    .logo-bottom img.logo-bottom__link {
+      margin-top: 10px;
+      width: 99%; }
+      @media only screen and (min-width: 921px) {
+        .logo-bottom img.logo-bottom__link {
+          margin-top: initial;
+          width: initial; } }
 
 .logo-bottom__wrapper {
   width: 100%;
@@ -185,15 +225,22 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-direction: column; }
+  @media only screen and (min-width: 921px) {
+    .cols {
+      flex-direction: row; } }
 
 .col {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 422px;
   align-items: center;
-  position: relative; }
+  position: relative;
+  width: 100%; }
+  @media only screen and (min-width: 921px) {
+    .col {
+      width: 422px; } }
 
 .buttons-wrapper {
   width: 100%;
@@ -231,9 +278,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 78%;
+  width: 100%; }
 
 .form__container {
   width: 100%;
@@ -284,9 +332,11 @@ body {
   outline: none;
   background-color: #f7f7f7;
   padding-left: 21px;
-  width: 250px;
   margin-left: 21px;
   padding-top: 5px; }
+  @media only screen and (min-width: 921px) {
+    .input__input {
+      width: 250px; } }
   .input__input::placeholder {
     color: #afafaf; }
 
@@ -393,7 +443,6 @@ body {
     padding-bottom: 5px; }
 
 .button-big {
-  width: 339px;
   height: 48px;
   border-radius: 3px;
   box-shadow: 0.5px 0.866px 0px #ffffff;
@@ -403,17 +452,20 @@ body {
   color: white;
   font-family: "Regular";
   text-shadow: 0.559px 0.829px 0px #51850e;
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 100%; }
+  @media only screen and (min-width: 921px) {
+    .button-big {
+      width: 339px; } }
   .button-big:hover {
     cursor: pointer; }
 
 .button-big--half {
-  width: 141px;
+  width: 47%;
   height: 42px;
   margin: 0; }
 
 .button-small {
-  width: 148px;
   height: 41px;
   border-radius: 3px;
   box-shadow: 0.5px 0.866px 0px #ffffff;
@@ -422,7 +474,8 @@ body {
   font-size: 18px;
   color: white;
   font-family: "Regular";
-  text-shadow: 0.559px 0.829px 0px #51850e; }
+  text-shadow: 0.559px 0.829px 0px #51850e;
+  width: 47%; }
   .button-small:hover {
     cursor: pointer; }
 
@@ -472,4 +525,4 @@ body {
     color: #afafaf; }
 
 .agreement--half {
-  width: 50%; }
+  width: 47%; }

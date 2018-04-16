@@ -1,13 +1,36 @@
 .logo-top {
-  width: 426px;
-  height: 111px;
-  margin-top: 55px;
+  width: 100%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
 
+  @media only screen and (min-width: 921px) {
+    margin-top: 55px;
+    width: 426px;
+    height: 111px;
+  }
+
   img {
-    opacity: 0.5;
+    opacity: 0.6;
+
+    @media only screen and (min-width: 921px) {
+      opacity: 0.5;
+    }
+
+    &.logo-top__image {
+      width: 65px;
+
+      @media only screen and (min-width: 921px) {
+        width: initial;
+      }
+    }
+
+    &.logo-top__text {
+      height: 65px;
+      @media only screen and (min-width: 921px) {
+        height: initial;
+      }
+    }
   }
 }

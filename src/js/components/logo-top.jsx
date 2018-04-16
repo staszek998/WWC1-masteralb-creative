@@ -6,8 +6,8 @@ export default class LogoTop extends React.Component {
   render() {
     return (
       <div className="logo-top">
-        <img src={logoImage} alt="" />
-        <img src={logoText} alt="" />
+        <img src={logoImage} alt="" className="logo-top__image" />
+        <img src={logoText} alt="" className="logo-top__text" />
       </div>
     );
   }
