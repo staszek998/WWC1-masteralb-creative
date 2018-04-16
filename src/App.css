@@ -152,12 +152,14 @@ body {
 
 .logo-top {
   width: 100%;
+  max-width: 323px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center; }
   @media only screen and (min-width: 921px) {
     .logo-top {
+      max-width: initial;
       margin-top: 55px;
       width: 426px;
       height: 111px; } }
@@ -179,6 +181,7 @@ body {
 
 .logo-bottom {
   width: 100%;
+  max-width: 323px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -190,6 +193,7 @@ body {
       position: absolute;
       bottom: 0;
       width: 426px;
+      max-width: initial;
       height: 111px; } }
   .logo-bottom img {
     opacity: 0.8; }
@@ -208,10 +212,10 @@ body {
           height: initial; } }
     .logo-bottom img.logo-bottom__link {
       margin-top: 10px;
-      width: 99%; }
+      width: 66%; }
       @media only screen and (min-width: 921px) {
         .logo-bottom img.logo-bottom__link {
-          margin-top: initial;
+          margin-top: 55px;
           width: initial; } }
 
 .logo-bottom__wrapper {
