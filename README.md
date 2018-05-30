@@ -1,6 +1,6 @@
 # Weekly WebDev Challange #1 - Masteralb Creative
 
-This is a training project developed to improve my front-end programming skills within HTML and CSS. The design was provided by a Facebook group [Weekly WebDev Challange](https://www.facebook.com/groups/940002776068923/) and to them are the thanks due.
+This is a training project developed to improve my front-end programming skills within HTML and CSS. The design was provided by the Facebook group [Weekly WebDev Challange](https://www.facebook.com/groups/940002776068923/) and to them are the thanks due.
 
 ## Getting Started
 
